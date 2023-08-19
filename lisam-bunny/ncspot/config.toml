@@ -1,0 +1,12 @@
+# library_tabs = "albums, artists"
+
+[theme]
+highlight = "white"
+highlight_bg = "red"
+primary = "red"
+secondary = "black"
+title = "red"
+playing = "white"
+playing_selected = "blue"
+statusbar = "red"
+statusbar_progress = "pink"
