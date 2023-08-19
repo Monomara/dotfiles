@@ -1,0 +1,64 @@
+#import:
+  # uncomment the flavour you want below:
+#  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
+window:
+  padding:
+    x: 9
+    y: 9
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: Terminess Nerd Font
+    style:  Medium
+  bold:
+    family: Terminess Nerd Font
+    style:  Bold
+  italic:
+    family: Terminess Nerd Font
+    style:  MediumItalic
+  bold_italic:
+    family: Terminess Nerd Font
+    style: BoldItalic
+  size: 8
+draw_bold_text_with_bright_colors: true
+
+# Colors (stolen from lainchan)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xB4B4B4'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xDD7474'
+    green:   '0xDD9A74'
+    yellow:  '0xDDBF74'
+    blue:    '0xDD7474'
+    magenta: '0xDD9A74'
+    cyan:    '0xDDBF74'
+    white:   '0xB4B4B4'
+
+  # Bright colors
+  bright:
+    black:   '0x646464'
+    red:     '0xFB7474'
+    green:   '0xF1A474'
+    yellow:  '0xF1C974'
+    blue:    '0xFB7474'
+    magenta: '0xF1A474'
+    cyan:    '0xF1C974'
+    white:   '0xF1F1F1'
